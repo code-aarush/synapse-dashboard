@@ -7,7 +7,7 @@
 #inputSection {
   display: flex;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 input {
@@ -38,4 +38,15 @@ button {
 
 #expenseList>div>div {
   margin-bottom: 4px;
+}
+
+#financeCard {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#financeCard h2 {
+  margin-bottom: 15px;
 }
