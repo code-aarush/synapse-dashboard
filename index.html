@@ -9,7 +9,15 @@
 </head>
 
 <body>
-  <div id="app">
+  <section id="heroSection">
+    <h1 id="greeting"></h1>
+    <p>Your personal life dashboard</p>
+    <h2 id="clock"></h2>
+    <p id="quote"></p>
+    <div id="scrollIndicator">↓</div>
+  </section>
+  <section id="appSection">
+    <div id="app">
     <div id="expenseSection">
       <div id="financeCard">
         <h2>Finance</h2>
@@ -26,8 +34,12 @@
         </div>
         <div id="expenseList"></div>
       </div>
+      <div id="placeholderCard">
+        <h2>Coming Soon</h2>
+      </div>
     </div>
   </div>
+  </section>
   <script type="module" src="./src/main.js"></script>
 </body>
 
